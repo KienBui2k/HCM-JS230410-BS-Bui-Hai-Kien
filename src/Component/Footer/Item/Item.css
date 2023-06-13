@@ -1,0 +1,36 @@
+.item__content {
+    min-width: 23%;
+    width: auto;
+    height: 100px;
+    background-color: white;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+}
+
+.item__content button {
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 90%;
+    background-color: orange;
+    border: none;
+    border-radius: 50%;
+}
+
+.item__content button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.item__content p {
+    margin-left: 10px;
+    line-height: 1.6;
+}

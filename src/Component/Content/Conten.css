@@ -1,0 +1,39 @@
+.content__container {
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.content__item {
+    width: 40%;
+    height: 60%;
+    position: relative;
+}
+
+.content__item input {
+    width: 100%;
+    height: 100%;
+}
+
+.content__item button {
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 95%;
+    left: 95%;
+    background-color: orange;
+    border: none;
+    border-radius: 50%;
+}
+
+.content__item button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+}
